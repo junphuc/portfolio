@@ -1,0 +1,130 @@
+.gradient-background {
+  background: linear-gradient(300deg, #0D1B2A,#3D2C8D,#FF6F91);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color:#fff
+}
+.*{
+  font-family: "Ubuntu", sans-serif;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle{
+  border-radius:100%;
+  width: 50rem;
+  height: 50rem;
+}
+
+.btn-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #212529;
+  --bs-btn-border-color: #212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #424649;
+  --bs-btn-hover-border-color: #373b3e;
+  --bs-btn-focus-shadow-rgb: 66,70,73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+.margin{
+  margin-left: 7px;
+}
+.header{
+  position:absolute;
+  height: 500px;
+  width: 300px;
+  left: 70%;
+
+}
+.container{
+  height: 500px;
+}
+.container-right{
+   height: 100px;
+   width:30%;
+   display: inline-block;
+   text-align: left;
+   padding-right: 1000px;
+}
+div{
+  display:block;
+  unicode-bidi: isolate;
+}
+.introduce{
+
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+
+}
+.container-left{
+   width:60%;
+   display: inline-block;
+   text-align: left;
+   padding-right: 90px;
+}
+
+.container_middle{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding-top: 80px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.middle_p{
+  margin-bottom: 20px;
+}
+
+.image_middle2{
+  padding-left:0px:
+  
+}
+.textbodyfirst{
+  --bs-text-opacity: 1;
+}
+
+h1{
+  font-family: "Sacramento", "Georgia", serif !important;
+  margin-top: 0px !important;
+  font-size: 500% !important;
+  margin-bottom: 10px !important ;
+  display: inline-block !important;
+}
+p, h2, h3, h4{
+  font-family: "Ubuntu", sans-serif;
+}
+button: hover:{
+  background: white;
+}
